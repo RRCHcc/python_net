@@ -1,0 +1,23 @@
+from turtle import *
+import time
+
+write("L   O   V   E")
+pensize(10)
+pencolor('pink')
+fillcolor('pink')
+speed(3)
+up()
+goto(15,100)
+down()
+begin_fill()
+left(90)
+circle(120,180)
+circle(360,70)
+left(38)
+circle(360,70)
+circle(120,180)
+end_fill()
+up()
+goto(-100,-100)
+time.sleep(1)
+down()
